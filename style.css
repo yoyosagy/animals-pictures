@@ -1,0 +1,45 @@
+body{
+    background: url("images/background.jpeg");
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        padding: 10px 30%;
+        color: blanchedalmond;
+    }
+    input{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    ul#wrapper{
+        list-style: none;
+        display: inline-block;
+        margin-top: 100px;
+    }
+    li{
+        width: 380px;
+        height: 230px;
+        float: left;
+        box-shadow: 0 2px 3px rgba(0,0);
+    }
+    .gallery{
+        margin: 10px 50px;
+    }
+    .gallery img{
+        position: relative;
+        transition: 1s;
+        width: 350px;
+        height: 200px;
+    }
+    .gallery img:hover{
+        filter: grayscale();
+        transform: scale(1.1);
+    }
+    
